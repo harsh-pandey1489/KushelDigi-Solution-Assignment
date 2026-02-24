@@ -21,7 +21,7 @@ const FAQ = () => {
     <section className="w-full bg-[#F4F4F4] py-16">
       <div className="max-w-[1200px] mx-auto px-6 text-center">
 
-        {/* Heading */}
+ 
         <h2 className="text-[26px] md:text-[32px] font-semibold uppercase text-gray-800 tracking-[4px]">
           FREQUENTLY ASKED{" "}
           <span className="text-[#3C7DC8]">QUESTION</span>
@@ -31,7 +31,7 @@ const FAQ = () => {
           Here are some common queries and question that brands ask.
         </p>
 
-        {/* FAQ Grid */}
+
         <div className="grid md:grid-cols-2 gap-6 text-left">
 
           {faqs.map((item, index) => (

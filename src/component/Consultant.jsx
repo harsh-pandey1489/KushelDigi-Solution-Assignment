@@ -3,7 +3,7 @@ import { ArrowRight } from "lucide-react";
 
 const Consultation = () => {
   return (
-    <section className="w-full bg-[#0C3A56] py-20 text-center">
+    <section className="w-full bg-[#0C3A56] py-10 text-center">
       <div className="max-w-[900px] mx-auto px-6">
         
         <h2 className="text-white text-[28px] md:text-[34px] font-semibold mb-4">

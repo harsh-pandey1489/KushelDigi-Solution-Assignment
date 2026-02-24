@@ -52,7 +52,7 @@ const OurServices = () => {
           </p>
         </div>
 
-        {/* Cards */}
+       
         <div className="grid md:grid-cols-3 gap-8">
 
           {services.map((item, index) => (
@@ -86,9 +86,8 @@ const OurServices = () => {
 
         </div>
 
-        {/* Get Started Button */}
         <div className="flex justify-center mt-12">
-          <button className="bg-primaryBlue text-white px-10 py-3">
+          <button className="bg-primaryBlue text-white px-10 cursor-pointer py-3">
             Get Started →
           </button>
         </div>

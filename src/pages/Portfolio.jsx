@@ -31,7 +31,7 @@ const Portfolio = () => {
           Our Portfolio
         </h2>
 
-        <p className="text-[#404040] w-[450px] mb-12 font-[400] text-[18px]">
+        <p className="text-[#404040] w-[380px] md:w-[450px] mb-12 font-[400] text-[18px]">
           We design project designed with passion on time,
           within budget of full value
         </p>

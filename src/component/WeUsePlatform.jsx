@@ -28,7 +28,7 @@ const WeUsePlatform = () => {
           We Use This Platform
         </h2>
 
-        {/* Logos */}
+    
         <div className="flex flex-wrap justify-center gap-8 md:gap-12">
           {platforms.map((logo, index) => (
             <div

@@ -54,7 +54,7 @@ const WorkingProcess = () => {
     <section className="w-full bg-white py-16">
       <div className="max-w-[1200px] mx-auto px-6 text-center">
 
-        {/* Heading */}
+      
         <h2 className="text-[24px] md:text-[30px] tracking-[4px] font-semibold uppercase text-gray-700 mb-16">
           Our Working Process
         </h2>
@@ -114,10 +114,10 @@ const WorkingProcess = () => {
                 <div className={`w-2 h-2 rounded-full ${item.color}`}></div>
               )}
 
-              {/* Vertical Line */}
+             
               <div className="w-[2px] h-6 bg-gray-300"></div>
 
-              {/* Circle */}
+          
               <div className="relative flex items-center justify-center my-4  ">
 
                 <div className={`absolute w-[140px] h-[140px] rounded-full  border-2 ${item.border} shadow-lg `}></div>
@@ -129,7 +129,7 @@ const WorkingProcess = () => {
                 </div>
               </div>
 
-              {/* Vertical Line */}
+              
               <div className="w-[2px] h-6 bg-gray-300"></div>
 
               {/* Bottom Dot */}
@@ -153,7 +153,7 @@ const WorkingProcess = () => {
           ))}
         </div>
 
-        {/* Buttons */}
+      
         <div className="flex flex-col sm:flex-row justify-center gap-6 mt-16">
           <button className="bg-darkBlue text-white px-8 py-3 uppercase tracking-[2px] text-sm hover:opacity-90 transition">
             Quick Enquiry
