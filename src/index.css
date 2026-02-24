@@ -1,0 +1,37 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap');
+
+@import "tailwindcss";
+
+body {
+  font-family: 'Manrope', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/* 👇 Custom utilities */
+@layer utilities {
+    .bg-primaryBlue {
+    background-color: #3C83CB;
+  }
+
+  .bg-darkBlue {
+    background-color: #2A3855;
+  }
+
+  .flex-center {
+    @apply flex items-center justify-center;
+  }
+   .nav-text {
+    @apply font-semibold text-[15px] leading-[100%] tracking-[1.8px] uppercase text-gray-600;
+  }
+
+  .nav-link {
+    @apply hover:text-blue-600 transition-colors duration-300;
+  }
+
+  .mobile-nav-link {
+    @apply block uppercase font-semibold tracking-[1.8px] text-gray-600 hover:text-blue-600 transition;
+  }
+
+ 
+}
