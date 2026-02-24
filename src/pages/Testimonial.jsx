@@ -18,7 +18,7 @@ const Testimonial = () => {
   const [index, setIndex] = useState(0);
 
   return (
-    <section className="w-full bg-[#EAF2F9] py-18">
+    <section className="w-full bg-[#EBF3FA] py-18">
       <div className="max-w-[1200px] mx-auto px-6">
 
         {/* Heading */}
@@ -34,10 +34,10 @@ const Testimonial = () => {
         {/* Content */}
         <div className="grid md:grid-cols-2 gap-12 items-center">
 
-          {/* LEFT SIDE */}
+    
           <div>
 
-            {/* Client Image + Arrows */}
+      
             <div className="flex items-center gap-4 mb-6">
 
               <img
@@ -70,7 +70,7 @@ const Testimonial = () => {
               {testimonials[index].role}
             </p>
 
-            {/* Dots */}
+      
             <div className="flex gap-2 mt-6">
               <span className="w-2 h-2 rounded-full bg-[#3C7DC8]"></span>
               <span className="w-2 h-2 rounded-full bg-gray-300"></span>

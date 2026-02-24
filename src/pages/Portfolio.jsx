@@ -4,12 +4,12 @@ import layer1 from '../assets/images/layer1.png'
 import layer2 from '../assets/images/layer2.jpg'
 const projects = [
   {
-    image: layer1, // replace with your image
+    image: layer1, 
     url: "www.2ndAmendment.com",
     desc: "Lorem Ipsum is simply dummy",
   },
   {
-    image: layer2, // replace with your image
+    image: layer2,
     url: "www.kickeez.com",
     desc: "Lorem Ipsum is simply dummy",
   },
@@ -19,7 +19,7 @@ const Portfolio = () => {
   return (
     <section className="relative w-full bg-[#F6F6F6] pt-6 pb-10 overflow-hidden">
 
-      {/* Faded Background Text */}
+
       <h1 className=" text-center text-[50px] md:text-[110px]  font-bold text-gray-200 ">
         OUR PORTFOLIO
       </h1>
@@ -54,7 +54,7 @@ const Portfolio = () => {
                   className="w-[500px] h-[260px] object-cover"
                 />
 
-                {/* Arrow Button */}
+            
                 <div className="absolute top-[250px] right-4 w-10 h-10 rounded-full bg-primaryBlue flex items-center justify-center text-white cursor-pointer hover:scale-105 transition">
                   <ArrowRight size={18} />
                 </div>
@@ -81,7 +81,7 @@ const Portfolio = () => {
           <span className="w-2 h-2 rounded-full bg-gray-300"></span>
         </div>
 
-        {/* CTA Button */}
+
         <div className="mt-10">
           <button className="bg-primaryBlue text-white px-8 py-3 text-sm uppercase tracking-[2px] hover:opacity-90 transition">
             Let's Get Together →

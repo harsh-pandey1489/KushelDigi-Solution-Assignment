@@ -7,7 +7,7 @@ import phpLogo from "../assets/logo/php.png";
 import laravelLogo from "../assets/logo/laravel.png";
 import androidLogo from "../assets/logo/android.png";
 import appleLogo from "../assets/logo/apple.png";
-
+import { ArrowRight } from "lucide-react";
 const platforms = [
   reactLogo,
   flutterLogo,
@@ -29,20 +29,39 @@ const WeUsePlatform = () => {
         </h2>
 
     
-        <div className="flex flex-wrap justify-center gap-8 md:gap-12">
-          {platforms.map((logo, index) => (
-            <div
-              key={index}
-              className="w-[110px] h-[110px] bg-white rounded-md shadow-sm flex items-center justify-center hover:shadow-md transition"
-            >
-              <img
-                src={logo}
-                alt="platform"
-                className="w-[55px] h-[55px] object-contain"
-              />
-            </div>
-          ))}
-        </div>
+        <div
+  className="
+    flex relative w-full
+    gap-6 md:gap-12
+    overflow-x-auto md:overflow-visible
+    whitespace-nowrap
+    px-4
+    justify-start md:justify-center
+    scrollbar-hide
+  "
+>
+  {platforms.map((logo, index) => (
+    <div
+      key={index}
+      className="
+        min-w-[110px] h-[110px]
+        bg-white rounded-md shadow-sm
+        flex items-center justify-center
+        hover:shadow-md transition
+      "
+    >
+      <img
+        src={logo}
+        alt="platform"
+        className="w-[55px] h-[55px] object-contain"
+      />
+    </div>
+  ))}
+
+  <div className="hidden md:flex absolute top-[20px] right-0 w-10 h-10 rounded-full bg-primaryBlue items-center justify-center text-white cursor-pointer hover:scale-105 transition">
+    <ArrowRight size={18} />
+  </div>
+</div>
 
       </div>
     </section>

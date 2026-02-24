@@ -47,12 +47,12 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* RIGHT FORM */}
+      
         <div className="relative w-full pt-9">
 
     <div className="relative w-full flex justify-center lg:justify-end">
 
-  {/* Circle Background */}
+ 
   <div className="absolute right-[-30px] bottom-[-80px] w-[500px] h-[500px] bg-[#3C83CB]/40 rounded-full"></div>
 
   {/* Form Card */}
